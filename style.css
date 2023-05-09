@@ -1,0 +1,67 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url(/misc/KGBlankSpaceSketch.ttf);
+}
+
+.center-text {
+  font-size: 7vw;
+  font-family: myFirstFont;
+  font-weight: lighter;
+  color: rgb(0, 0, 0);
+  text-align: right;
+  
+}
+
+#nav-buttons {
+  background-color: rgba(9, 235, 235, 0);
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  padding: 1vw;
+  font-size: large;
+  font-weight: 500;
+  font-family: myFirstFont;
+  border-color: rgba(240, 248, 255, 0);
+  white-space: nowrap;
+}
+#nav-brand{
+  color: rgb(255, 255, 255);
+  font-family:myFirstFont;
+  font-size: xx-large;
+  font-weight: bold ;
+}
+#nav-buttons:hover {
+  border-color: rgb(255, 255, 255);
+}
+#navbarTogglerDemo01{
+  justify-content: end;
+}
+header {
+  display: flex;
+  justify-content: center;
+}
+#carousel-cont{
+  margin-top: 100px;
+}
+
+.main {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.712)1%, rgba(0, 0, 0, 0) 30%), url("/images/bg.png");
+}
+#img-cont img{
+  width: 55vw;
+  box-shadow: 20px 20px 10px black;
+}
+#img-cont{
+  padding-top: 10vw;
+  padding-bottom: 10vw;
+  padding-left: 2vw;
+  display: inline-block;
+}
+#txt-cont{
+  padding-bottom:10vw;
+  display: block;
+}
+.trans-bg{
+  padding: 0;
+  box-shadow: 0 0 10px 10px black;
+  background-clip: content-box, padding-box;
+}
