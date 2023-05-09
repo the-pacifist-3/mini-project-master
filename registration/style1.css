@@ -3,7 +3,33 @@ html {
     width: 100%;
     
   }
-  
+  @font-face {
+    font-family: myFirstFont;
+    src: url(/misc/KGBlankSpaceSketch.ttf);
+  }
+  #nav-buttons {
+    background-color: rgba(9, 235, 235, 0);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 1vw;
+    font-size: large;
+    font-weight: 500;
+    font-family: myFirstFont;
+    border-color: rgba(240, 248, 255, 0);
+    white-space: nowrap;
+  }
+  #nav-brand{
+    color: rgb(255, 255, 255);
+    font-family:myFirstFont;
+    font-size: xx-large;
+    font-weight: bold ;
+  }
+  #nav-buttons:hover {
+    border-color: rgb(255, 255, 255);
+  }
+  #navbarTogglerDemo01{
+    justify-content: end;
+  }
   .container-sm 
   {
           max-width: 700px;

@@ -7,7 +7,7 @@
   <title>REGISTRATION FORM</title>
   <style>
     #image {
-      background-image: url('bg.jpg');
+      background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.712)90%, rgba(0, 0, 0, 0.498) 10%), url("/images/bg.png");
       width: 100%;
     }
   </style>
@@ -21,12 +21,36 @@
 
 <body>
   <div id="image">
+     <nav id="nav" style = "background-image: linear-gradient(to bottom ,rgb(63, 63, 63),rgb(126, 124, 124),rgba(255, 249, 249, 0.233));" class="navbar navbar-dark navbar-expand-lg justify-content-center fixed-top">
+        <div class="container">
+            <a class="navbar-brand" id="nav-brand" href="#">Eat Up!</a>
+            <button id="toggler-button" class="navbar-toggler " type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon" ></span>
+            </button>
+            <div class="collapse  navbar-collapse" id="navbarTogglerDemo01">
+                <ul class="navbar-nav justify-content-end ">
+                    <li class="nav-item"> <a class="flex-sm-fill text-sm-center nav-link" href="/index.html"><button class="h3"
+                                id="nav-buttons">Home</button></a></li>
+                    <li class="nav-item"> <a class="flex-sm-fill text-sm-center nav-link" href=""><button class="h3"
+                                id="nav-buttons">Menu</button></a></li>
+                    <li class="nav-item"> <a class="flex-sm-fill text-sm-center nav-link" href=""><button class="h3" id="nav-buttons">About
+                                us</button></a></li>
+                    <li class="nav-item"> <a class="flex-sm-fill text-sm-center nav-link" href="registration/registration.html"><button class="h3"
+                                id="nav-buttons">Registration</button></a></li>
+                    <li class="nav-item"> <a class="flex-sm-fill text-sm-center nav-link" href=""><button class="h3" id="nav-buttons">Private
+                                Events</button></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
     <div class="container-sm">
       <main>
         <div class="py-10 text-center">
-          <h1>WELCOME TO OUR RESTURENT</h1>
+          <h1>WELCOME TO OUR RESTAURANT</h1>
           <p class="lead">
-          <h3>REGISTER HEARE TO BOOK THE ROOM</h3>
+          <h3>REGISTER HERE TO BOOK A TABLE</h3>
           </p>
         </div>
 
@@ -96,7 +120,7 @@
 
 
                 <div class="col-md-3">
-                  <label for="frome date" class="form-label">Frome date</label>
+                  <label for="frome date" class="form-label">From date</label>
                   <input type="date" class="form-control" id="date" placeholder="" required>
                   <div id="invalid-feedback" class="invalid-feedback">from date required.</div>
                 </div>
@@ -112,7 +136,7 @@
 
 
                 <div class="col-md-6">
-                  <label for="person" class="form-label">Whome with will you come</label>
+                  <label for="person" class="form-label">Whom with will you come</label>
                   <select class="form-select" id="country" required>
                     <option value="">Choose...</option>
                     <option>Family</option>
@@ -126,7 +150,7 @@
                   <label for="file" class="form-label">Select a id proof</label>
                   <input type="file" class="form-control" id="zip"
                     placeholder="select a id proof like addar card in pdf formate only" required>
-                  <div id="invalid-feedback" class="invalid-feedback">pdf formate is required.</div>
+                  <div id="invalid-feedback" class="invalid-feedback">pdf format is required.</div>
                 </div>
 
 
